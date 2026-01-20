@@ -1,0 +1,14 @@
+Menggunakan OTDR (Optical Time Domain Reflectometer) adalah langkah penting untuk melakukan troubleshooting atau audit kualitas jaringan fiber optic. 
+Bersihkan Konektor: Gunakan alkohol 90% dan fiber swab atau one-click cleaner.
+Gunakan Launch Cable (Fiber Ring): Sangat disarankan menggunakan kabel pemicu (launch cable) sepanjang 500m - 1km.
+Cek Sinyal Aktif: Pastikan kabel yang akan diukur tidak sedang dialiri sinyal laser dari perangkat aktif (seperti SFP atau ONT)
+Eksekusi Pengukuran
+​Sambungkan konektor kabel ke port OTDR.
+​Tekan tombol Start atau Scan.
+​Tunggu hingga proses averaging selesai jika Anda memilih mode tersebut.
+​Grafik (trace) akan muncul di layar.
+Garis Miring Turun: Ini adalah redaman normal sepanjang kabel (kualitas kaca).
+Lonjakan Tajam ke Atas (Spike): Menandakan adanya Konektor atau ujung kabel. Jika lonjakan sangat tinggi di tengah kabel, mungkin ada konektor yang kotor atau longgar.
+Penurunan Mendadak (Step): Menandakan adanya Splice (Sambungan) atau tekukan kabel (bending). Jika turunnya drastis, berarti sambungannya buruk.
+Garis Langsung Jatuh ke Dasar: Menandakan Titik Putus (Break) atau akhir dari kabel.
+Setelah selesai, jangan lupa tekan tombol Save. Biasanya file disimpan dalam format .
